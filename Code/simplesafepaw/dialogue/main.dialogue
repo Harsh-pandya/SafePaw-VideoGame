@@ -1,0 +1,16 @@
+~ start
+Raylie: Good morning, Mr. James! I see you've adopted a pet and are going for a stroll.
+
+Mr. James: Morning, Raylie! That's right. His name is Bruno, and this is his first morning walk.
+
+Raylie: (Thinking) Should I ask Mr. James for permission to pet his dog, or should I just go and pet Bruno?
+- Ask permission to pet the dog
+	set States.player_state = "PET"
+- Reach out to pet the dog
+	set States.player_state = "PET_WITHOUT_PERMISSION"
+=> END
+#~ start_step_4
+#Raylie: Thank you, Mr. James, for all the valuable lessons. It was nice meeting you, Bruno. Have a wonderful day ahead, Mr. James. Bye, Bruno!
+#
+#Mr. James: Bye Raylie!! It was good to see you. 
+#=> END

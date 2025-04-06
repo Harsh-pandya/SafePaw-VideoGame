@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://d02d1587lf5b1"
+path="res://.godot/imported/step2_introduce_yourself_by_smell.dialogue-b842bf8e419193af0ddd3d52a0784eec.tres"
+
+[deps]
+
+source_file="res://dialogue/step2_introduce_yourself_by_smell.dialogue"
+dest_files=["res://.godot/imported/step2_introduce_yourself_by_smell.dialogue-b842bf8e419193af0ddd3d52a0784eec.tres"]
+
+[params]
+
+defaults=true

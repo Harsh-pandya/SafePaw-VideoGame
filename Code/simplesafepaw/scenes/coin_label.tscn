@@ -1,0 +1,143 @@
+[gd_scene load_steps=20 format=3 uid="uid://cmmm8yhy7vdtr"]
+
+[ext_resource type="Texture2D" uid="uid://dp7grxqk2c6am" path="res://assets/coin1_16x16.png" id="1_7qya3"]
+[ext_resource type="Script" path="res://scripts/coin_label.gd" id="1_mifhq"]
+[ext_resource type="AudioStream" uid="uid://wyjo64gd2mpi" path="res://assets/sounds/mixkit-fairy-arcade-sparkle-866.wav" id="3_eol80"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gwpp4"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wvhg5"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h3bbk"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pou2w"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l1pqa"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7435y"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1mm1"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1qf4m"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(112, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1eujq"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(128, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqbno"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(144, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3jmht"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(160, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h224o"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(176, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpwlu"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(192, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jm2kl"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(208, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8lx6k"]
+atlas = ExtResource("1_7qya3")
+region = Rect2(224, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uio7r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gwpp4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wvhg5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h3bbk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pou2w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l1pqa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7435y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1mm1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1qf4m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1eujq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rqbno")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3jmht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h224o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpwlu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jm2kl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8lx6k")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[node name="CoinLabel" type="Node2D"]
+script = ExtResource("1_mifhq")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+alignment = 1
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "0 Coins"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="HBoxContainer"]
+position = Vector2(-20, 21)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_uio7r")
+autoplay = "default"
+frame_progress = 0.251933
+
+[node name="coin_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_eol80")

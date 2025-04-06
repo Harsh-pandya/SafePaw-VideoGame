@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://gxv3nnrxyf3v"
+path="res://.godot/imported/start_without_permission_to_pet.dialogue-6813f3abca007f59bd4f23d719f607ba.tres"
+
+[deps]
+
+source_file="res://dialogue/start_without_permission_to_pet.dialogue"
+dest_files=["res://.godot/imported/start_without_permission_to_pet.dialogue-6813f3abca007f59bd4f23d719f607ba.tres"]
+
+[params]
+
+defaults=true

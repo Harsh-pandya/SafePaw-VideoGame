@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpf8nkqufrhww"]
+
+[ext_resource type="AudioStream" uid="uid://bemtx7s1s4i6y" path="res://assets/sounds/GameBackgroundSound.mp3" id="1_qfe7t"]
+
+[node name="GameBgMusic" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_qfe7t")
+autoplay = true

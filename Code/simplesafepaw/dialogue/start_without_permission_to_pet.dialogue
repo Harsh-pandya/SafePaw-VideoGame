@@ -1,0 +1,9 @@
+~ start
+
+Mr. James: Bruno, stay! Raylie, you should always ask the owner if you can pet their dog. Sometimes dogs don't like strangers.
+
+Raylie: Sorry, Mr. James! I'll definitely ask the pet owner next time I meet them. Can I go ahead and pet Bruno now?
+
+Mr. James: Sure! Go ahead, Raylie!
+set States.player_state = "PET"
+=> END

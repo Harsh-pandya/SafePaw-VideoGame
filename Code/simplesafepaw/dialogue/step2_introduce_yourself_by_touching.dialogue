@@ -1,0 +1,8 @@
+~ start
+
+Mr. James: Bruno, stay! Raylie, you should first introduce yourself before touching the dog. Dogs get to know each other by sniffing. They need to smell you before they feel comfortable with you touching them.
+
+Raylie: I get it now! Thank you, Mr. James.
+
+set States.player_state = "SMELL_FIST"
+=> END

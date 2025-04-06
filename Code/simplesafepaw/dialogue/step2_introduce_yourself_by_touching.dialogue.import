@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://mx1wn17wkm37"
+path="res://.godot/imported/step2_introduce_yourself_by_touching.dialogue-0500e304cc1b3864984e5b30fa74e38a.tres"
+
+[deps]
+
+source_file="res://dialogue/step2_introduce_yourself_by_touching.dialogue"
+dest_files=["res://.godot/imported/step2_introduce_yourself_by_touching.dialogue-0500e304cc1b3864984e5b30fa74e38a.tres"]
+
+[params]
+
+defaults=true

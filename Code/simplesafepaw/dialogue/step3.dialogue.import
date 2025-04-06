@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://dkd32erxmk0ug"
+path="res://.godot/imported/step3.dialogue-b6239e33753eac25497104b476f8721d.tres"
+
+[deps]
+
+source_file="res://dialogue/step3.dialogue"
+dest_files=["res://.godot/imported/step3.dialogue-b6239e33753eac25497104b476f8721d.tres"]
+
+[params]
+
+defaults=true

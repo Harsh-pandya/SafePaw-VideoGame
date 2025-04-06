@@ -1,0 +1,6 @@
+~ start
+set States.player_state = "SMELL_FIST"
+
+Mr. James: It's good to see you know how to introduce yourself to a dog.
+
+=> END

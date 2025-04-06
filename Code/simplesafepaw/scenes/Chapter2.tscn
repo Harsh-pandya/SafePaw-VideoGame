@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://2kfsvbpopwhw"]
+
+[ext_resource type="PackedScene" uid="uid://ddaktqdecaeyp" path="res://scenes/background.tscn" id="1_c313t"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="background" parent="." instance=ExtResource("1_c313t")]
+position = Vector2(960, 542)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+custom_minimum_size = Vector2(200, 200)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel"]
+layout_mode = 0
+offset_left = -266.0
+offset_top = 414.0
+offset_right = 2185.0
+offset_bottom = 687.0
+theme_override_font_sizes/font_size = 150
+text = "Chapter 2 Comming Soon"
+horizontal_alignment = 1
+vertical_alignment = 1

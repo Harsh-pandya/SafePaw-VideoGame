@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://dpneaw5ipfp3x"
+path="res://.godot/imported/step3_pet_under_chin.dialogue-d2d3b05004bb507e169dd7697b481d12.tres"
+
+[deps]
+
+source_file="res://dialogue/step3_pet_under_chin.dialogue"
+dest_files=["res://.godot/imported/step3_pet_under_chin.dialogue-d2d3b05004bb507e169dd7697b481d12.tres"]
+
+[params]
+
+defaults=true

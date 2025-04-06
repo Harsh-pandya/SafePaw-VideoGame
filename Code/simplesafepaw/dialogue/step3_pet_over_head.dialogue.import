@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://dgjr82r2gwe5b"
+path="res://.godot/imported/step3_pet_over_head.dialogue-ad111c613591d52b54cd0a45b9726868.tres"
+
+[deps]
+
+source_file="res://dialogue/step3_pet_over_head.dialogue"
+dest_files=["res://.godot/imported/step3_pet_over_head.dialogue-ad111c613591d52b54cd0a45b9726868.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,9 @@
+~ start
+
+Raylie: (Thinking) Should I pet Bruno over the head or under the chin?
+- Pet the dog under the chin
+	set States.player_state = "UNDER_CHIN"
+- Pet the dog over the head
+	set States.player_state = "ON_HEAD"
+
+=> END

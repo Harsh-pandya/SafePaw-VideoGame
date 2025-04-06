@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bprkdjyyg7gd4"]
+
+[ext_resource type="Script" path="res://scripts/game_video_player.gd" id="1_pfmob"]
+[ext_resource type="VideoStream" path="res://assets/chapters/output.ogv" id="1_qvu10"]
+
+[node name="GameVideoPlayer" type="Node2D"]
+script = ExtResource("1_pfmob")
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1088.0
+ratio = 1.7
+
+[node name="chapter_1_intro_video" type="VideoStreamPlayer" parent="AspectRatioContainer"]
+layout_mode = 2
+stream = ExtResource("1_qvu10")
+volume_db = -20.0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://5mj522nu312k"
+path="res://.godot/imported/start_with_permission_to_pet.dialogue-8d3b4440666cfafd76613bec6a5c0ad2.tres"
+
+[deps]
+
+source_file="res://dialogue/start_with_permission_to_pet.dialogue"
+dest_files=["res://.godot/imported/start_with_permission_to_pet.dialogue-8d3b4440666cfafd76613bec6a5c0ad2.tres"]
+
+[params]
+
+defaults=true

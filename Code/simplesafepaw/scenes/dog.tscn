@@ -1,0 +1,174 @@
+[gd_scene load_steps=26 format=3 uid="uid://rpveubw1dsjp"]
+
+[ext_resource type="Script" path="res://scripts/dog.gd" id="1_igxyg"]
+[ext_resource type="Texture2D" uid="uid://3dptwnqoiqfa" path="res://assets/dog_sprite.png" id="1_k62jk"]
+[ext_resource type="AudioStream" uid="uid://bgy12xawf3ml5" path="res://assets/sounds/dog-barking-224786.mp3" id="3_gg0ug"]
+[ext_resource type="AudioStream" uid="uid://b1t07phib604e" path="res://assets/sounds/sniffing-dog-102739.mp3" id="4_xbvsq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yo3ue"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(0, 0, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y2ykm"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(258, 0, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_20uxt"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(516, 0, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r3aev"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(774, 0, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8nnkq"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(0, 174, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gvs21"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(258, 174, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4aek8"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(516, 174, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a877u"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(774, 174, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3p5l7"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(0, 348, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b8os6"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(258, 348, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_06a8e"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(516, 348, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_meur7"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(774, 348, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4yend"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(0, 522, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38dsd"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(258, 522, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0i2ct"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(516, 522, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g6t46"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(774, 522, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p7ebi"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(0, 696, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ayp7u"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(258, 696, 258, 174)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bncht"]
+atlas = ExtResource("1_k62jk")
+region = Rect2(516, 696, 258, 174)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ksw0h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yo3ue")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y2ykm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_20uxt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r3aev")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8nnkq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gvs21")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4aek8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a877u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3p5l7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b8os6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_06a8e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_meur7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4yend")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38dsd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0i2ct")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6t46")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p7ebi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ayp7u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bncht")
+}],
+"loop": true,
+"name": &"ideal",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nguvi"]
+size = Vector2(166.75, 100.25)
+
+[node name="dog" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("1_igxyg")
+
+[node name="DogAnimatedSprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ksw0h")
+animation = &"ideal"
+autoplay = "ideal"
+frame_progress = 0.57276
+flip_h = true
+
+[node name="DogCollisionShpae" type="CollisionShape2D" parent="."]
+position = Vector2(9, 34)
+shape = SubResource("RectangleShape2D_nguvi")
+
+[node name="DogBarking" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1, 0)
+stream = ExtResource("3_gg0ug")
+
+[node name="DogSniffing" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1, 0)
+stream = ExtResource("4_xbvsq")

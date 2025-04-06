@@ -1,0 +1,8 @@
+~ start
+
+Raylie: (Thinking) How can I introduce myself to a dog? Should I touch the dog, or should I let him smell me first?
+- Touch Dog Without Introducing Yourself
+	set States.player_state = "TOUCH_DOG"
+- Introduce yourself by letting dog smelling your fist
+	set States.player_state = "SMELL_FIST"
+=> END

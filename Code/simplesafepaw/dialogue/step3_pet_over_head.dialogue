@@ -1,0 +1,8 @@
+~ start
+
+Mr. James: Bruno, stay! Raylie, dogs can get anxious when they're not able to see your hands. Petting under the chin allows your face to be far away from the dog's mouth and creates more trust for the dog.
+
+Raylie: It's good to learn! I'll apply it next time I'm petting a dog.
+
+set States.player_state = "UNDER_CHIN"
+=> END
