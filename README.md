@@ -1,3 +1,5 @@
+![alt App_Logo.jpeg](/App_Logo.jpeg)
+
 # SafePaw-VideoGame
 
 This project is an educational video game designed for children in Grades 1 to 5, aiming to teach them essential concepts of animal safety through interactive gameplay. The game is developed using the Godot 4 Game Engine.The primary objective of this game is to provide an interactive and fun learning environment where children can explore various scenarios related to animal safety.
@@ -18,4 +20,10 @@ This project is an educational video game designed for children in Grades 1 to 5
 - [Weekly Presentation](./Weekly%20Presentations/)
   - This Folder contains our project presentations.
 - [Research Paper](./Research%20Paper%20/)
+
   - This Folder holds the progress we are making in writing the research paper inside. The progress file are located inside the [InProgress Folder](./Research%20Paper%20//InProgress%20Files/)
+  - Containg the [Main Paper](/Research%20Paper%20/Main_paper.pdf)
+
+- [Code/simplesafepaw](/Code/simplesafepaw/)
+  - This folder holds the code for the game.
+  - The readme for the code can be found [here](/Code/simplesafepaw/game_readme.md)
