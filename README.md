@@ -1,6 +1,6 @@
 ![alt App_Logo.jpeg](/App_Logo.jpeg)
 
-## Watch The Commercial Video For The Game [HERE](./Commerial.mp4)
+## Download The Commercial Video For The Game [HERE](./Commerial.mp4)
 
 <!-- <video src='./Commerial.mp4' /> -->
 
